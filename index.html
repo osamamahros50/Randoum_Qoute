@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <video
+      src="./image/space floagting.mp4"
+      autoplay
+      muted
+      loop
+      class="video"
+    ></video>
+    <div class="content position-absolute top-50 start-50">
+      <div class="border p-5 shadow-lg text-center overflow-hidden">
+        <h1 class=" mb-4 overflow-hidden">
+          Quote of the Day
+        </h1>
+        <p
+          class=" mb-5 overflow-hidden fw-bold "
+        >
+          Press the button below to recieve a random quote!
+        </p>
+        <button
+          onclick="generateQuote()"
+          class="shadow__btn animate__animated animate__backInRight mb-2"
+        >
+          New Quote
+        </button>
+        <div class="test">
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="semsm d-flex align-items-center justify-content-center ">
+      <span class="loader"></span>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
